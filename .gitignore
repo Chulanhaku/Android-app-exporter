@@ -1,0 +1,55 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Gradle and Android build output
+.gradle/
+.kotlin/
+**/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+/app/release/
+
+# Local machine configuration
+local.properties
+
+# Generated install packages (publish these through GitHub Releases)
+/outputs/
+*.apk
+*.aab
+*.apks
+*.xapk
+*.idsig
+
+# Release signing credentials and local secrets
+*.jks
+*.keystore
+*.pk8
+*.p12
+*.pem
+keystore.properties
+signing.properties
+secrets.properties
+.env
+.env.*
+!.env.example
+
+# Public test keys required by the app to re-sign merged APKs.
+# These are application resources, not the private release-signing key.
+!app/src/main/assets/debug23.keystore
+!app/src/main/assets/testkey.pk8
+
+# Local work directories
+/work/
+/.codex/
+/.agents/
+
+# OS, editor, and diagnostic files
+.DS_Store
+Thumbs.db
+.vscode/
+*.log
+*.hprof
+*.tmp
+*.bak
